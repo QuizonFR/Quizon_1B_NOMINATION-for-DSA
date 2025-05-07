@@ -43,10 +43,12 @@ def ATM():
                         else:
                             print("Invalid Input. Must be a Number")
             # 3.3 Cancel Transaction option
-            else:
+            elif choice == 3:
                 print("Cancelling Transaction. Please Wait...")
                 print("Transaction Cancelled. Exiting...")
                 break
+            else:
+                print("Invalid input. Must be (1/2/3)")
             # Ask for Another Transaction
             while True:
                 again = input("Another Transaction? (y/n): ").lower()
