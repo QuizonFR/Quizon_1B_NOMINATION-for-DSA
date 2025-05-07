@@ -1,1 +1,0 @@
-# Quizon_1B_NOMINATION-for-DSA
